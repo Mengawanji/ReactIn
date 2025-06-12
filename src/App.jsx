@@ -1,20 +1,20 @@
-import Header from "./header.jsx"
-import Footer from "./footer.jsx"
-import Food from "./food.jsx";
-
+import Header from "./Header.jsx"
+import Footer from "./Footer.jsx"
+import Food from "./Food.jsx"
+import Card from "./Card.jsx"
+import Button from "./Button/Button.jsx"
 import { Component } from "react";
 import React from "react";
 import { Fragment } from "react";
 
 
 function App() {
-
+ 
   return (
-    <React.Fragment>
-      <Header/>
-      <Footer/>
-      <Food/>
-    </React.Fragment>
+    <> 
+      <Card/>
+      <Button/>
+    </>
   );
 
 }
