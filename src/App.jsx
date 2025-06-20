@@ -6,7 +6,7 @@ import Button, {Press} from "./Button/Button.jsx"
 import Student from "./Student.jsx"
 import Greeting from "./Greeting.jsx"
 import List, { Lost } from "./List"
-import MyCompo from "./MyCompo.jsx"
+import MyCompo, { Compo } from "./MyCompo.jsx"
 
 function App() {
   const Veges = [{id: 1, name:"Tomato", cal: 55},
@@ -32,6 +32,7 @@ function App() {
       {spice.length > 0 ?<Lost items={spice} cal="spice"/> : null}
       <Press/>
       <MyCompo/>
+      <Compo/>
     </>
   );
 
