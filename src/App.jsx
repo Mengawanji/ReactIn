@@ -8,6 +8,8 @@ import Greeting from "./Greeting.jsx"
 import List, { Lost } from "./List"
 import MyCompo, { Compo } from "./MyCompo.jsx"
 import ColorPicker from "./ColorPicker.jsx"
+import MyCar, { UpdateArray } from "./MyCar.jsx"
+import Vehicle from "./MyVehicle.jsx"
 
 function App() {
   const Veges = [{id: 1, name:"Tomato", cal: 55},
@@ -35,6 +37,9 @@ function App() {
       <MyCompo/>
       <Compo/>
       <ColorPicker/>
+      <MyCar/>
+      <UpdateArray/>
+      <Vehicle/>
     </>
   );
 
