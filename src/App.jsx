@@ -7,6 +7,7 @@ import Student from "./Student.jsx"
 import Greeting from "./Greeting.jsx"
 import List, { Lost } from "./List"
 import MyCompo, { Compo } from "./MyCompo.jsx"
+import ColorPicker from "./ColorPicker.jsx"
 
 function App() {
   const Veges = [{id: 1, name:"Tomato", cal: 55},
@@ -33,6 +34,7 @@ function App() {
       <Press/>
       <MyCompo/>
       <Compo/>
+      <ColorPicker/>
     </>
   );
 
