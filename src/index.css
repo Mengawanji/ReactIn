@@ -97,3 +97,9 @@ input [type="color"] {
    border-radius: 10px;
    border: 3px solid rgb(226, 215, 215);
 }
+
+
+.box {
+  border:  3px solid;
+  padding: 25px;
+}

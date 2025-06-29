@@ -51,7 +51,7 @@ export default function Vehicle() {
                 <input type=" text" value={carMake} onChange={handleMake } placeholder="Enter Car Make"/>  <br/>
                 <input type=" text" value={carModel} onChange={handleModel } placeholder="Enter Car Model"/> <br/>
 
-                <button onClick={handleAddCar}> Add Car</button>
+                <button onClick ={handleAddCar}> Add Car</button>
             </div>)
 
   
